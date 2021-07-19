@@ -1,4 +1,4 @@
-function(){
+function akaneSubmit(){
     var birthday = "11/01/2018";
     var arr = birthday.split('/');
     var day = arr[0];
