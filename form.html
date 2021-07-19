@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-auto">
-          <form>
+          <form action="">
             <label for="birthday">Birthday:</label>
             <input type="date" id="birthday" name="birthday" /><br />
             <label for="gender">Gender</label><br />
@@ -23,7 +23,7 @@
             <label for="female">Female</label><br />
             <button
               type="submit"
-              onclick="akaneSubmit()"
+              onclick="akaneSubmit();"
               class="btn btn-primary"
             >
               Submit
@@ -32,5 +32,8 @@
         </div>
       </div>
     </div>
+    <h4>Results:</h4>
+    <p id="results"></p>
+    <script src="akane.js"></script>
   </body>
 </html>
