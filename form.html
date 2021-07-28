@@ -13,14 +13,16 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-auto">
-          <form action="">
+          <form action="" name="form">
             <label for="birthday">Birthday:</label>
             <input type="date" id="birthday" name="birthday" /><br />
+            <p id="date"></p>
             <label for="gender">Gender</label><br />
             <input type="radio" id="male" name="gender" value="male" />
             <label for="male">Male</label><br />
             <input type="radio" id="female" name="gender" value="female" />
             <label for="female">Female</label><br />
+            <p id="chooseGender"></p>
             <button
               type="submit"
               onclick="akaneSubmit();"
@@ -31,9 +33,10 @@
           </form>
         </div>
       </div>
+      <h4>Results:</h4>
+      <p id="results"></p>
     </div>
-    <h4>Results:</h4>
-    <p id="results"></p>
+
     <script src="akane.js"></script>
   </body>
 </html>
