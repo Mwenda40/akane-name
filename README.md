@@ -6,7 +6,7 @@ This project is an application that takes a user's birthday and calculates the d
 
 ## Setup/Installation Requirements
 
-*open your web browser and enter the following website,
+*open your web browser and enter the following website, https://mwenda40.github.io/akane-name/
 *select your date of birth.
 *select your gender.
 *click the submit button and view your results.
